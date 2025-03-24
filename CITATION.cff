@@ -10,7 +10,6 @@ type: software
 authors:
   - given-names: Austin
     family-names: Tao
-    name-particle: Austin
     email: austin_tao@berkeley.edu
     affiliation: UC Berkeley
   - given-names: Robert
