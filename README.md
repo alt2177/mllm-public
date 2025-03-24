@@ -43,6 +43,7 @@ We specifically will be assessing summarization performance on a particular doma
 | **Drug**    | 84.699802              | 84.0                  | 45.044833              |
 | **Android** | 11.775620              | 5.0                   | 17.058663              |
 
+<!--
 # [**IN PROGRESS**] Installation Instructions
 
 All of our dependencies are specified in the `requirements.txt` file. To run any of
@@ -144,3 +145,4 @@ if __name__ == "__main__":
 ```
 
 Afterwards, you can run your experiment with the `.sh` script as explained above.
+-->

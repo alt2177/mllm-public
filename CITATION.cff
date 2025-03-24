@@ -1,0 +1,57 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Merged Large Language Models
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Austin
+    family-names: Tao
+    name-particle: Austin
+    email: austin_tao@berkeley.edu
+    affiliation: UC Berkeley
+  - given-names: Robert
+    family-names: Thompson
+    email: robert_thompson@berkeley.edu
+    affiliation: UC Berkeley
+  - given-names: Sean
+    family-names: McAvoy
+    email: sean_mcavoy@berkeley.edu
+    affiliation: UC Berkeley
+  - {}
+  - given-names: Phudish
+    family-names: Prateepamornkul
+    email: phudish_p@berkeley.edu
+    affiliation: UC Berkeley
+repository-code: 'https://github.com/alt2177/mllm-public'
+abstract: >-
+  Large Language Models (LLM)  have revolutionized not just
+  the tech industry, but the world as a whole. The
+  performance of these LLMs is truly incredible and is
+  exponentially increasing with every passing year. Though
+  the abilities of these models are astounding, one limiting
+  factor is the scale of the models, as well as the quantity
+  of data and hardware needed to train and fine-tune these
+  models. At the time of publication, GPT3.5 had 175 billion
+  parameters, as reported in
+  \cite{DBLP:journals/corr/abs-2005-14165}. Few
+  organizations have the resources necessary to train and
+  host these LLMs. We propose a new model approach that
+  relies on merging several medium-sized LLMs  while
+  maintaining similar levels of performance. Our goal is for
+  this Merge of Large Language Models (MLLM) to match the
+  performance of state-of-the-art models in domain-specific
+  summarization tasks.
+keywords:
+  - Large Language Models
+  - Deep Learning
+  - Generative AI
+  - Mixture of Experts
+  - Ensemble Learning
+license: MIT
+commit: 18888f8994842b4751e633a94dfc45928236cc53
+version: 1.0.0
+date-released: '2025-03-22'
