@@ -1,0 +1,1 @@
+Finetune test accuracy big : 0.4630335720264112

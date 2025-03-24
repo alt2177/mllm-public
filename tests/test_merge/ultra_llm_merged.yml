@@ -1,0 +1,12 @@
+slices:
+  - sources:
+    - model: openai-community/gpt2
+      layer_range: [0,22]
+      parameters:
+        weight: 1.0
+    - model: openai-community/gpt2]
+      layer_range: [0,22]
+      parameters:
+        weight: 1
+  merge_method: linear
+  dtype: float16

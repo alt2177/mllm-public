@@ -1,0 +1,18 @@
+models:
+  - model: gpt2_f_experiment_0_drug_data
+    parameters:
+      weight: 1.0
+  - model: gpt2_f_experiment_1_drug_data
+    parameters:
+      weight: 1.0
+  - model: gpt2_f_experiment_2_drug_data
+    parameters:
+      weight: 1.0
+  - model: gpt2_f_experiment_3_drug_data
+    parameters:
+      weight: 1.0
+  - model: gpt2_f_experiment_4_drug_data
+    parameters:
+      weight: 1.0
+merge_method: linear
+dtype: float16

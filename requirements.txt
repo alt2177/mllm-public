@@ -1,0 +1,9 @@
+matplotlib
+pandas
+numpy
+torch
+evaluate
+huggingface
+huggingface_hub
+clip @ git+https://github.com/arcee-ai/mergekit@main
+

@@ -1,0 +1,6 @@
+{
+  "cmd": "\n# plotting on different plots\nplt.figure(figsize = (10, 6), dpi = 100)\nax = plt.gca()\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nplt.hist(inlabel_base_2, alpha = 0.3, label = \"Fine-Tune 2\", color='blue')\nplt.hist(inlabel_ties, alpha = 0.3, label = \"TIES Merge\", color='green')\n# plt.hist(inlabel_dare_lin, bins = 20, alpha = 0.5, label = \"DARE Linear Merge\", color='springgreen')\nplt.xlim([0.0, 0.00025])\nplt.title('Distribution of Values Conditioned on True Label (Testing)')\nplt.xlabel('Probability')\nplt.ylabel('Frequency')\nplt.grid(True)\nplt.legend()\nplt.savefig(\"notebooks/images/zoom.png\")\nplt.show()\n",
+  "cmd_opts": " --cell_id=mVn6FMzKXR -s",
+  "import_complete": 1,
+  "terminal": "nvimterm"
+}

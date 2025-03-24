@@ -1,0 +1,50 @@
+config:
+  dataset:
+    name: "imdb"
+  model:
+    name: "openai-community/gpt2"
+    num_labels: 2
+    id2label:
+      0: "NEGATIVE"
+      1: "POSITIVE"
+    label2id:
+      NEGATIVE: 0
+      POSITIVE: 1
+  training_args:
+    output_dir: "imdb_finetune_gpt2_test_epoch_1_with_prob_1_merge_output"
+    learning_rate: 2e-5
+    per_device_train_batch_size: 8
+    per_device_eval_batch_size: 8
+    num_train_epochs: 1
+    weight_decay: 0.01
+    evaluation_strategy: "epoch"
+    save_strategy: "epoch"
+    load_best_model_at_end: true
+    push_to_hub: true
+    hub_model_id: "imdb_finetune_gpt2_test_epoch_1_with_prob_1_merge_output"
+  mergekit_config:
+    models:
+      - model: gpt2_f_experiment_0_drug_data
+        parameters:
+          weight: 0.2
+      - model: gpt2_f_experiment_1_drug_data
+        parameters:
+          weight: 0.2
+      - model: gpt2_f_experiment_2_drug_data
+        parameters:
+          weight: 0.2
+      - model: gpt2_f_experiment_3_drug_data
+        parameters:
+          weight: 0.2
+      - model: gpt2_f_experiment_4_drug_data
+        parameters:
+          weight: 0.2
+    merge_method: dare_linear
+    base_model: gpt2_f_experiment_0_drug_data
+    parameters:
+      normalize: true
+    dtype: float16
+  hugging_face:
+    upload_to_hf: true
+    hf_output_dir: "gpt2_finetune_2_with_prob_epoch_1"
+    hf_username: "mllm-dev"

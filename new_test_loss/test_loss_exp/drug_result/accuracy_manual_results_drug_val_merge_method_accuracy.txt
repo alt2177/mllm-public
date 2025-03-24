@@ -1,0 +1,4 @@
+Merge method test accuracy dare_linear: 0.462475588207942
+Merge method test accuracy dare_ties: 0.4775411513066121
+Merge method test accuracy linear: 0.46396354505719334
+Merge method test accuracy ties: 0.48488793824979076

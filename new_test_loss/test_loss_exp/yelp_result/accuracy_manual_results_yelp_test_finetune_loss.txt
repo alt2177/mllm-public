@@ -1,0 +1,10 @@
+Finetune test loss 0: 1.2929681178324608
+Finetune test loss 1: 1.2936026054083396
+Finetune test loss 2: 1.2912538707344816
+Finetune test loss 3: 1.2957538157830644
+Finetune test loss 4: 1.293383005744491
+Finetune test loss 5: 1.2933127175348595
+Finetune test loss 6: 1.2919677564539653
+Finetune test loss 7: 1.2916088422341954
+Finetune test loss 8: 1.294480929997263
+Finetune test loss 9: 1.2973842521878254

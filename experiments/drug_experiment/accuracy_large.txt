@@ -1,0 +1,8 @@
+Large Fine tune model  : TrainOutput(global_step=13442, training_loss=1.5784920464135266, metrics={'train_runtime': 10555.1578, 'train_samples_per_second': 15.281, 'train_steps_per_second': 1.274, 'train_loss': 1.5784920464135266, 'epoch': 1.0})
+Large Fine tine model  validation result : {'eval_loss': 1.4546449184417725, 'eval_accuracy': 0.4630335720264112, 'eval_runtime': 303.54, 'eval_samples_per_second': 35.425, 'eval_steps_per_second': 2.955, 'epoch': 1.0}
+Large Fine tune model  test results : {'eval_loss': 1.4663580656051636, 'eval_accuracy': 0.46502220258991467, 'eval_runtime': 1215.5806, 'eval_samples_per_second': 35.385, 'eval_steps_per_second': 2.949, 'epoch': 1.0}
+
+Large Fine tune model  : TrainOutput(global_step=40325, training_loss=1.6252031490659389, metrics={'train_runtime': 20874.0987, 'train_samples_per_second': 7.727, 'train_steps_per_second': 1.932, 'train_loss': 1.6252031490659389, 'epoch': 1.0})
+Large Fine tine model  validation result : {'eval_loss': 1.5115073919296265, 'eval_accuracy': 0.4533618525062773, 'eval_runtime': 353.0206, 'eval_samples_per_second': 30.46, 'eval_steps_per_second': 7.617, 'epoch': 1.0}
+Large Fine tune model  test results : {'eval_loss': 1.5270646810531616, 'eval_accuracy': 0.45032897031130126, 'eval_runtime': 1412.4178, 'eval_samples_per_second': 30.453, 'eval_steps_per_second': 7.614, 'epoch': 1.0}
+

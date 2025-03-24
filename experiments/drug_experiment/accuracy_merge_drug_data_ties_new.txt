@@ -1,0 +1,3 @@
+DARE Ties merge validation results : {'eval_loss': 1.434387445449829, 'eval_accuracy': 0.468241420998791, 'eval_runtime': 31.4039, 'eval_samples_per_second': 342.409, 'eval_steps_per_second': 21.43}
+DARE Ties test results : {'eval_loss': 1.4430806636810303, 'eval_accuracy': 0.4642782414618836, 'eval_runtime': 113.0181, 'eval_samples_per_second': 380.585, 'eval_steps_per_second': 23.793}
+

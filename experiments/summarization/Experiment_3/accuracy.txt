@@ -1,0 +1,20 @@
+Fine tune model 0 : TrainOutput(global_step=30, training_loss=4.229512532552083, metrics={'train_runtime': 276.1098, 'train_samples_per_second': 7.135, 'train_steps_per_second': 0.109, 'train_loss': 4.229512532552083, 'epoch': 10.0})
+Fine tine model 0 validation result : {'eval_loss': 3.8540303707122803, 'eval_rouge1': 0.1403, 'eval_rouge2': 0.0532, 'eval_rougeL': 0.1178, 'eval_rougeLsum': 0.1181, 'eval_gen_len': 19.0, 'eval_runtime': 0.7494, 'eval_samples_per_second': 65.387, 'eval_steps_per_second': 1.334, 'epoch': 10.0}
+Fine tune model 0 test results : {'eval_loss': 3.4967598915100098, 'eval_rouge1': 0.1415, 'eval_rouge2': 0.0457, 'eval_rougeL': 0.1177, 'eval_rougeLsum': 0.1176, 'eval_gen_len': 19.0, 'eval_runtime': 8.1586, 'eval_samples_per_second': 24.392, 'eval_steps_per_second': 0.368, 'epoch': 10.0}
+
+Fine tune model 1 : TrainOutput(global_step=30, training_loss=4.124867757161458, metrics={'train_runtime': 229.2109, 'train_samples_per_second': 8.595, 'train_steps_per_second': 0.131, 'train_loss': 4.124867757161458, 'epoch': 10.0})
+Fine tine model 1 validation result : {'eval_loss': 3.8522684574127197, 'eval_rouge1': 0.1395, 'eval_rouge2': 0.0511, 'eval_rougeL': 0.1159, 'eval_rougeLsum': 0.1164, 'eval_gen_len': 19.0, 'eval_runtime': 0.7473, 'eval_samples_per_second': 65.571, 'eval_steps_per_second': 1.338, 'epoch': 10.0}
+Fine tune model 1 test results : {'eval_loss': 3.4931602478027344, 'eval_rouge1': 0.1424, 'eval_rouge2': 0.0466, 'eval_rougeL': 0.1178, 'eval_rougeLsum': 0.1177, 'eval_gen_len': 19.0, 'eval_runtime': 2.7907, 'eval_samples_per_second': 71.307, 'eval_steps_per_second': 1.075, 'epoch': 10.0}
+
+Fine tune model 2 : TrainOutput(global_step=30, training_loss=4.176727549235026, metrics={'train_runtime': 229.133, 'train_samples_per_second': 8.598, 'train_steps_per_second': 0.131, 'train_loss': 4.176727549235026, 'epoch': 10.0})
+Fine tine model 2 validation result : {'eval_loss': 3.853743553161621, 'eval_rouge1': 0.1405, 'eval_rouge2': 0.0502, 'eval_rougeL': 0.1165, 'eval_rougeLsum': 0.117, 'eval_gen_len': 19.0, 'eval_runtime': 0.7851, 'eval_samples_per_second': 62.414, 'eval_steps_per_second': 1.274, 'epoch': 10.0}
+Fine tune model 2 test results : {'eval_loss': 3.493542432785034, 'eval_rouge1': 0.1408, 'eval_rouge2': 0.0456, 'eval_rougeL': 0.117, 'eval_rougeLsum': 0.117, 'eval_gen_len': 19.0, 'eval_runtime': 2.8425, 'eval_samples_per_second': 70.009, 'eval_steps_per_second': 1.055, 'epoch': 10.0}
+
+Fine tune model 3 : TrainOutput(global_step=30, training_loss=4.294206237792968, metrics={'train_runtime': 229.2111, 'train_samples_per_second': 8.595, 'train_steps_per_second': 0.131, 'train_loss': 4.294206237792968, 'epoch': 10.0})
+Fine tine model 3 validation result : {'eval_loss': 3.8441150188446045, 'eval_rouge1': 0.1419, 'eval_rouge2': 0.0536, 'eval_rougeL': 0.1189, 'eval_rougeLsum': 0.119, 'eval_gen_len': 19.0, 'eval_runtime': 0.7548, 'eval_samples_per_second': 64.922, 'eval_steps_per_second': 1.325, 'epoch': 10.0}
+Fine tune model 3 test results : {'eval_loss': 3.486279010772705, 'eval_rouge1': 0.1436, 'eval_rouge2': 0.0472, 'eval_rougeL': 0.1187, 'eval_rougeLsum': 0.1188, 'eval_gen_len': 19.0, 'eval_runtime': 2.8329, 'eval_samples_per_second': 70.246, 'eval_steps_per_second': 1.059, 'epoch': 10.0}
+
+Fine tune model 4 : TrainOutput(global_step=30, training_loss=4.160635121663412, metrics={'train_runtime': 229.4357, 'train_samples_per_second': 8.586, 'train_steps_per_second': 0.131, 'train_loss': 4.160635121663412, 'epoch': 10.0})
+Fine tine model 4 validation result : {'eval_loss': 3.8395040035247803, 'eval_rouge1': 0.1406, 'eval_rouge2': 0.0511, 'eval_rougeL': 0.1166, 'eval_rougeLsum': 0.1171, 'eval_gen_len': 19.0, 'eval_runtime': 0.7708, 'eval_samples_per_second': 63.572, 'eval_steps_per_second': 1.297, 'epoch': 10.0}
+Fine tune model 4 test results : {'eval_loss': 3.4811058044433594, 'eval_rouge1': 0.1417, 'eval_rouge2': 0.0457, 'eval_rougeL': 0.1176, 'eval_rougeLsum': 0.1175, 'eval_gen_len': 19.0, 'eval_runtime': 2.8233, 'eval_samples_per_second': 70.484, 'eval_steps_per_second': 1.063, 'epoch': 10.0}
+

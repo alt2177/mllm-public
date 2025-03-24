@@ -1,0 +1,11 @@
+slices:
+  - sources:
+    - model: microsoft/phi-1
+      layer_range: [0, 10]
+  - sources:
+    - model: microsoft/phi-2
+      layer_range: [20, 30]
+merge_method: passthrough
+dtype: float16
+
+

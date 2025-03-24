@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mllm"
+version = "0.1.0"
+description = "A package for merging deep neural networks, including large language models"
+dynamic = ["dependencies"]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    {name = "Robert Thompson", email = "robert_thompson@berkeley.edu"},
+    {name = "Phudish (Tam) Prateepamornkul", email = "phudish_p@berkeley.edu"},
+    {name = "Sean McAvoy", email = "sean_mcavoy@berkeley.edu"},
+    {name = "Austin Tao", email = "austin.tao@berkeley.edu"},
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+keywords = ["merging", "deep neural networks", "LLMs"]
+
+[tools.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.urls]
+repository = "https://github.com/alt2177/Merged-LLMs"
+
+[tool.setuptools.packages.find]
+where = ["mllm"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+
+

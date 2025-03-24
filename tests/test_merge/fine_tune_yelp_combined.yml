@@ -1,0 +1,11 @@
+models:
+  - model: yelp_finetune_epoch_1_gpt2_1
+    parameters:
+      weight: 1.0
+
+  - model: yelp_finetune_epoch_1_gpt2_2
+    parameters:
+      weight: 1.0
+
+merge_method: linear
+dtype: float16

@@ -1,0 +1,11 @@
+models:
+  - model: imdb_finetune_epoch_1_gpt2
+    parameters:
+      weight: 1.0
+
+  - model: imdb_finetune_epoch_5_gpt2
+    parameters:
+      weight: 1.0
+
+merge_method: linear
+dtype: float16

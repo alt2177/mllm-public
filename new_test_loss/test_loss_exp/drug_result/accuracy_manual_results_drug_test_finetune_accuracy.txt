@@ -1,0 +1,5 @@
+Finetune test accuracy 0: 0.4684165252365564
+Finetune test accuracy 1: 0.48359798200544024
+Finetune test accuracy 2: 0.4748796875363262
+Finetune test accuracy 3: 0.4557459372747774
+Finetune test accuracy 4: 0.47715806849092135

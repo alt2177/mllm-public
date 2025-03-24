@@ -1,0 +1,5 @@
+Finetune validation accuracy 0: 2.0553936036336253
+Finetune validation accuracy 1: 1.9692815235782755
+Finetune validation accuracy 2: 1.98550299222157
+Finetune validation accuracy 3: 2.027852184747122
+Finetune validation accuracy 4: 1.9749006290131708

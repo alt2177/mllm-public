@@ -1,0 +1,21 @@
+models:
+  - model: gpt2_f_experiment_0_drug_data
+    parameters:
+      weight: 0.2
+  - model: gpt2_f_experiment_1_drug_data
+    parameters:
+      weight: 0.2
+  - model: gpt2_f_experiment_2_drug_data
+    parameters:
+      weight: 0.2
+  - model: gpt2_f_experiment_3_drug_data
+    parameters:
+      weight: 0.2
+  - model: gpt2_f_experiment_4_drug_data
+    parameters:
+      weight: 0.2
+merge_method: dare_linear
+base_model: gpt2_f_experiment_0_drug_data
+parameters:
+  normalize: true
+dtype: float16

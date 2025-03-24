@@ -1,0 +1,9 @@
+models:
+  - model: google/flan-t5-small
+    parameters:
+      weight: 1.0
+  - model: google/flan-t5-small
+    parameters:
+      weight: 0.3
+merge_method: linear
+dtype: float16

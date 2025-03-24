@@ -1,0 +1,10 @@
+Finetune validation loss" 0: 1.2988685955051749
+Finetune validation loss" 1: 1.3021290684122473
+Finetune validation loss" 2: 1.299963027717668
+Finetune validation loss" 3: 1.3040806000593657
+Finetune validation loss" 4: 1.3007512250684117
+Finetune validation loss" 5: 1.3010406370524439
+Finetune validation loss" 6: 1.3000333421711725
+Finetune validation loss" 7: 1.2985456360106888
+Finetune validation loss" 8: 1.3016818425347627
+Finetune validation loss" 9: 1.3048365324039506

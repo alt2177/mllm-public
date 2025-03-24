@@ -1,0 +1,6 @@
+global_step             : 16
+train_runtime           : 79.1396
+train_samples_per_second: 12.636
+train_steps_per_second  : 0.202
+train_loss              : 4.76032018661499
+epoch                   : 1.0
